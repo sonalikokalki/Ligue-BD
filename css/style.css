@@ -28,7 +28,7 @@
 }
 .hr_green{
  
-    background-color: rgb(56, 47, 182);
+    background-color: rgba(117, 186, 243, 0.555)
 }
 .hr_purple{
      background-color: rgb(117, 186, 243);
@@ -37,10 +37,20 @@
     /* background-color:rgba(250, 177, 217, 0.486); */
     padding:40px 40px;
 }
+.bg-green{
+    background-color: #548CFF;
+}
+.bg-light-blue{
+    background-color: #93FFD8;
+}
 .section-first{
-    padding: 50px;
+    /* padding: 50px; */
     background-color:rgba(117, 186, 243, 0.555) ;
     border-radius: 10px;
+}
+.section-second{
+    border-radius: 10px;
+    
 }
 .section-second-left{
     background-color: rgba(117, 186, 243, 0.158);
@@ -53,4 +63,8 @@
     padding:20px;
     margin: 20px 0px;
     border-radius: 10px;
+}
+button:hover{
+    background-color:#548CFF ;
+
 }
